@@ -39,3 +39,20 @@ The script then runs the container, mapping the HOST_PORT to the CONTAINER_PORT.
 
 #### Error Handling and Validation: 
 After each major step (build, push, and run), the script includes error checks to validate that the commands executed successfully. This ensures that any failures in the process are reported clearly.
+
+
+## Usage and Requirements
+### Prerequisites:
+
+For the Disk Usage Monitor script, you need awk installed.
+For the Docker Deployment Automation script, you need Docker installed.
+
+## Running the Disk Usage Monitor Script:
+```bash
+bash Monitoring_Disk.sh
+```
+
+Running the Docker Deployment Automation Script:
+```bash
+bash Docker_Deployment.sh
+```
