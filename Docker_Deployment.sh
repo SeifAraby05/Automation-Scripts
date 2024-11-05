@@ -13,13 +13,23 @@ CONTAINER_PORT=3000             # Container port
 
 # Generate unique tag
 if [ -f "$VERSION_FILE" ]; then
-    # Read and increment the version number
+    # Read the current version number from the version file
     VERSION=$(<"$VERSION_FILE")
-    NEW_VERSION=$(echo "$VERSION" | awk -F. '{$NF += 1; OFS = "."; print}')
+
+    # Extract major and minor versions
+    MAJOR=$(echo "$VERSION" | cut -d. -f1 | cut -c2-)  # Get major version
+    MINOR=$(echo "$VERSION" | cut -d. -f2)              # Get minor version
+
+    # Increment the minor version by 1
+    MINOR=$((MINOR + 1))
+
+    # Combine them back to the version format vX.Y
+    NEW_VERSION="v$MAJOR.$MINOR"
 else
     # Initial version if version file doesn't exist
     NEW_VERSION="v1.0"
 fi
+
 echo "$NEW_VERSION" > "$VERSION_FILE"  # Save new version to the file
 IMAGE_TAG="$NEW_VERSION"
 
@@ -57,4 +67,3 @@ else
     echo "Failed to start container."
     exit 1
 fi
-
