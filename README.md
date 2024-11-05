@@ -16,3 +16,8 @@ Each partition's usage percentage is displayed as a color-coded bar graph in the
 
 #### Display Results: 
 The formatted data and graphs are then printed to the terminal, offering a comprehensive view of the disk usage across partitions.
+
+
+## 2. Docker Deployment Automation Script
+### Overview
+#### The Docker Deployment Automation script automates Docker build, versioning, and deployment. It allows for custom configurations such as Dockerfile path, ports, and incremental version tagging.
