@@ -6,7 +6,7 @@
 
 ### Steps and Solution Explanation
 #### Collect Disk Usage Data: 
-The script runs ```bash df -h ``` to gather disk usage information for each partition. The -h flag provides the output in a human-readable format.
+The script runs ```df -h``` to gather disk usage information for each partition. The -h flag provides the output in a human-readable format.
 
 #### Parse and Format Output: 
 The output is processed to extract each partition's name, usage, and percentage. This ensures that all necessary details are included in the final output.
