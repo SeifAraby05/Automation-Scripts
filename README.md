@@ -1,5 +1,5 @@
 # Automation-Scripts
-![Disk Usage Monitor]()
+![Disk Usage Monitor](monitoring_disk.PNG)
 
 ## 1. Disk Usage Monitor Script
 ### Overview
