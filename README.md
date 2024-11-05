@@ -1,2 +1,30 @@
 # Automation-Scripts
-Currently Contains scripts to monitor disk usage &amp; scripts to automate docker build and deployment
+
++-------------------------------+
+|     Start Disk Monitor        |
++-------------------------------+
+                |
+                v
++-------------------------------+
+| Collect Disk Usage with df -h |
++-------------------------------+
+                |
+                v
++-------------------------------+
+|   Parse Output and Format     |
++-------------------------------+
+                |
+                v
++-------------------------------+
+|  Render Visual Terminal Graph |
++-------------------------------+
+                |
+                v
++-------------------------------+
+|       Display in Terminal     |
++-------------------------------+
+                |
+                v
++-------------------------------+
+|            End                |
++-------------------------------+
