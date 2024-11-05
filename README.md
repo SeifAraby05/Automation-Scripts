@@ -20,4 +20,4 @@ The formatted data and graphs are then printed to the terminal, offering a compr
 
 ## 2. Docker Deployment Automation Script
 ### Overview
-#### The Docker Deployment Automation script automates Docker build, versioning, and deployment. It allows for custom configurations such as Dockerfile path, ports, and incremental version tagging.
+The Docker Deployment Automation script automates Docker build, versioning, and deployment. It allows for custom configurations such as Dockerfile path, ports, and incremental version tagging.
