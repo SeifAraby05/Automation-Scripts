@@ -6,7 +6,7 @@
 ### Overview
 The Disk Usage Monitor script collects disk usage information and presents it in a visually appealing format with a bar graph display for each partition. This tool is useful for quickly assessing disk space usage across all partitions.
 
-### Steps and Solution Explanation
+## Steps and Solution Explanation
 ### Collect Disk Usage Data: 
 The script runs ```df -h``` to gather disk usage information for each partition. The -h flag provides the output in a human-readable format.
 
@@ -26,7 +26,7 @@ The formatted data and graphs are then printed to the terminal, offering a compr
 ### Overview
 The Docker Deployment Automation script automates Docker build, versioning, and deployment. It allows for custom configurations such as Dockerfile path, ports, and incremental version tagging.
 
-### Steps and Solution Explanation
+## Steps and Solution Explanation
 ### Version Tagging: 
 The script checks if a .version file exists. If it does, it reads the last version, increments it (e.g., v1.0 to v1.1), and saves the new version in the file. This ensures that each image has a unique tag.
 
