@@ -1,7 +1,8 @@
 # Automation-Scripts
-![Disk Usage Monitor](monitoring_disk.PNG)
 
 ## 1. Disk Usage Monitor Script
+![Disk Usage Monitor](monitoring_disk.PNG)
+
 ### Overview
 The Disk Usage Monitor script collects disk usage information and presents it in a visually appealing format with a bar graph display for each partition. This tool is useful for quickly assessing disk space usage across all partitions.
 
@@ -21,6 +22,7 @@ The formatted data and graphs are then printed to the terminal, offering a compr
 
 
 ## 2. Docker Deployment Automation Script
+![Docker Deployment](Docker_Deployment.PNG)
 ### Overview
 The Docker Deployment Automation script automates Docker build, versioning, and deployment. It allows for custom configurations such as Dockerfile path, ports, and incremental version tagging.
 
