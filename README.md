@@ -29,7 +29,7 @@ The script checks if a .version file exists. If it does, it reads the last versi
 
 
 #### Build Docker Image: 
-The script builds a Docker image using the specified DOCKERFILE_PATH and BUILD_CONTEXT variables, allowing for custom configurations. The docker build command includes these paths to ensure flexibility in the build process.
+The script builds a Docker image using the specified DOCKERFILE_PATH and BUILD_CONTEXT variables, allowing for custom configurations. The ```docker build``` command includes these paths to ensure flexibility in the build process.
 
 #### Tag and Push to Docker Registry: 
 If a registry name is provided, the script tags the image with the registry address and pushes it to the Docker registry. This step makes the versioned image accessible for deployment on other servers.
